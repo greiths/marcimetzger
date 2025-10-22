@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en" data-bs-theme="auto">
 <head>
     <title>Marci Metzger Homes - Real Estate Agent, Real Estate, Realtor</title>
@@ -19,6 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <!-- Bootstrap 5.3.3 CSS  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <!-- FontAwesome -->
@@ -42,18 +43,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">LISTINGS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">LET'S MOVE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT US</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">LISTINGS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">LET'S MOVE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
                         <li class="nav-item">
                             <a class="btn btn-primary rounded-pill px-4 ms-lg-3" href="tel:(206) 919-6886" role="button">
                                 <i class="fa-solid fa-phone"></i>&nbsp; CALL NOW
@@ -65,85 +58,95 @@
         </nav>
     </header>
 
-
-
     <div class="hero-split">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 hero-left">
-                    <h5 class="lead mb-2"><font style="font-weight: 500;">MARCI METZGER</font> - THE RIDGE REALTY GROUP</h5>
-                    <h1 class="display-4 fw-bold mb-4 custom-title">
-                        <span style="color: #161616;">PAHRUMP</span> <span style="color: #077F46;">REALTOR</span>
+                <div class="col-lg-6 hero-left" style="color: white;">
+                    <h5 class="lead mb-2"><span style="font-weight: 500;">MARCI METZGER</span></h5>
+                    <h5 class="lead mb-2">THE RIDGE REALTY GROUP</h5>
+                    <h1 class="display-5 mb-4 custom-title">
+                        <span style="color: #ffffff;">PAHRUMP REALTOR</span>
                     </h1>
-                    <div class="search-form mt-4 p-4 bg-white rounded shadow-sm">
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-12 col-md-4">
-                                    <select class="form-control">
-                                        <option>Location</option>
-                                        <option>Pahrump</option>
-                                        <option>Las Vegas</option>
-                                    </select>
-                                </div>
-                                <div class="col-6 col-md-4">
-                                    <select class="form-control">
-                                        <option>Type</option>
-                                        <option>House</option>
-                                        <option>Condo</option>
-                                    </select>
-                                </div>
-                                <div class="col-6 col-md-4">
-                                    <select class="form-control">
-                                        <option>Sort By</option>
-                                        <option>Price Low to High</option>
-                                        <option>Price High to Low</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="row g-3 mt-2">
-                                <div class="col-6 col-md-2">
-                                    <input type="number" class="form-control" placeholder="Bedrooms">
-                                </div>
-                                <div class="col-6 col-md-2">
-                                    <input type="number" class="form-control" placeholder="Baths">
-                                </div>
-                                <div class="col-6 col-md-2">
-                                    <input type="number" class="form-control" placeholder="Min Price">
-                                </div>
-                                <div class="col-6 col-md-2">
-                                    <input type="number" class="form-control" placeholder="Max Price">
-                                </div>
-                                <div class="col-12 col-md-4">
-                                    <button type="submit" class="btn btn-primary w-100">
-                                        <i class="fa-solid fa-magnifying-glass-location"></i>&nbsp; Search
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                    <a class="btn btn-light rounded-pill px-4 ms-lg-3" href="tel:(206) 919-6886" role="button" style="font-size: 22px;">
+                        <i class="fa-solid fa-phone"></i>&nbsp; <b>CALL NOW</b>
+                    </a>
                 </div>
+
                 <div class="col-lg-6 hero-right position-relative">
                     <div class="main-image-card jump-slow">
                         <span class="price-tag">
                             <i class="fa-solid fa-star"></i> FEATURED<br />
-                            <font style="font-size: 22px;">$1,950,000</font> Active<br />
+                            <span style="font-size: 22px;">$1,950,000</span> Active<br />
                             4 bd | 5 bth | 5,530 sq. ft.
                         </span>
-                        <img src="./img/MAIN-PROPERTY.JPG"
-                             alt="Main Property" class="img-fluid rounded-4">
+                        <img src="./img/MAIN-PROPERTY.JPG" alt="Main Property" class="img-fluid rounded-4">
                     </div>
+
                     <div class="small-image top-small jump-slow1">
-                        <img src="https://img1.wsimg.com/isteam/stock/143/:/rs=w:1279,m "
-                             alt="Small Top" class="img-fluid rounded-4">
+                        <img src="https://img1.wsimg.com/isteam/stock/143/:/rs=w:1279,m " alt="Small Top" class="img-fluid rounded-3">
                     </div>
+
                     <div class="small-image bottom-small jump-slow2">
                         <img src="https://img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/mtn%20falls%20pond.jpg"
-                             alt="Small Bottom" class="img-fluid rounded-4">
+                             alt="Small Bottom" class="img-fluid rounded-3">
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- SEARCH FORM moved inside hero-split so it floats above the hero background -->
+        <div class="search-form p-4 bg-white rounded-4 shadow-m">
+            <h1>Search Listings</h1>
+            <h2>Find Your Dream Home</h2>
+            <form>
+                <div class="row g-3">
+                    <div class="col-12 col-md-4">
+                        <select class="form-control">
+                            <option>Location</option>
+                            <option>Pahrump</option>
+                            <option>Las Vegas</option>
+                        </select>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <select class="form-control">
+                            <option>Type</option>
+                            <option>House</option>
+                            <option>Condo</option>
+                        </select>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <select class="form-control">
+                            <option>Sort By</option>
+                            <option>Price Low to High</option>
+                            <option>Price High to Low</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row g-3 mt-2">
+                    <div class="col-6 col-md-2">
+                        <input type="number" class="form-control" placeholder="Bedrooms">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <input type="number" class="form-control" placeholder="Baths">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <input type="number" class="form-control" placeholder="Min Price">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <input type="number" class="form-control" placeholder="Max Price">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <button type="submit" class="btn btn-primary w-100">
+                            <i class="fa-solid fa-magnifying-glass-location"></i>&nbsp; Search
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
+
+
 
 
 
@@ -186,13 +189,13 @@
                 </div>
                 <div class="col-md-6">
                     <h6><b>THE RIDGE REALTY GROUP</b></h6>
-                    <h1><b>Marci Metzger</b></h1>
+                    <h1>Marci Metzger</h1>
                     <p><i>REALTOR for Nearly 3 Decades!</i></p>
                     <p>
                         Marci was a REALTOR, then licensed Broker, in Washington State. Now, she is enjoying the sunshine and helping clients in Southern Nevada. Having helped buyers and sellers in many markets since 1995, she is a wealth of knowledge.
                     </p>
-                    <p>3190 HW-160, Suite F, Pahrump, Nevada 89048, United States</p>
-                    <a class="btn btn-primary mb-4" href="#">
+                    <p><i class="fa-solid fa-location-dot"></i>&nbsp; 3190 HW-160, Suite F, Pahrump, Nevada 89048, United States</p>
+                    <a class="btn btn-success mb-4" href="#">
                         <b>KNOW MORE</b>
                     </a>
                     <a class="btn btn-primary mb-4" href="tel:(206) 919-6886">
@@ -214,8 +217,8 @@
                          class="img-fluid rounded-4 shadow-lg sales-img">
                 </div>
                 <div class="col-md-6">
-                    <h6 class="fw-bold text-uppercase">Get It Sold</h6>
-                    <h2 class="fw-bold" style="color: #077F46;">Top Residential Sales Last 5 Years</h2>
+                    <h4 class="fw-bold text-uppercase"><i class="fa-solid fa-house-circle-check"></i> Get It Sold</h4>
+                    <h2 class="fw-bold" style="color: #077F46; font-family: 'Cinzel', Georgia, serif;">Top Residential Sales Last 5 Years</h2>
                     <p class="text-muted">
                         We helped nearly 90 clients in 2021, and closed 28.5 million in sales!
                         <br><br>
@@ -286,11 +289,51 @@
     <div class="py-5">
         <div class="container" style="padding-bottom: 50px; padding-top: 30px;">
             <div class="row align-items-center">
-                <div class="col-md-6 mb-4 mb-md-0">
-                    <h2 class="fw-bold" style="color: #077F46;">Photo Gallery</h2>
+                <div class="col-md-5 mb-4 mb-md-0">
+                    <h2 class="fw-bold" style="color: #077F46; font-family: 'Cinzel', Georgia, serif;">Photo Gallery</h2>
                     <p class="text-muted">Step inside and explore our curated collection of stunning properties. From modern interiors to breathtaking landscapes, every detail is designed to inspire your next move. Your dream space awaits—start your journey here. Don’t just imagine it—see it, feel it, and make it yours.</p>
+
+                    <br />
+
+                    <div class="row">
+                        <div class="col-4 col-md-3 mb-3">
+                            <a href="#" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1">
+                                <img src="https://img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/4460%20Roseworthy-52.jpg-SMALL.JPG/:/rs=w:984,h:655" class="d-block w-100 rounded-3" alt="Slide 1">
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-3 mb-3">
+                            <a href="#" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+                                <img src="https://img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/5570%20Ailanto-14.jpg-SMALL.JPG/:/cr=t:0%25,l:0.05%25,w:99.9%25,h:99.9%25/rs=w:984,h:655" class="d-block w-100 rounded-3" alt="Slide 1">
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-3 mb-3">
+                            <a href="#" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+                                <img src="https://img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/5570%20Ailanto-45.jpg-SMALL.JPG/:/rs=w:984,h:655" class="d-block w-100 rounded-3" alt="Slide 1">
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-3 mb-3">
+                            <a href="#" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4">
+                                <img src="https://img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/5570%20Ailanto-50.jpg-SMALL.JPG/:/rs=w:984,h:655" class="d-block w-100 rounded-3" alt="Slide 1">
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-3 mb-3">
+                            <a href="#" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5">
+                                <img src="https://img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/4787%20E%20Beacon%20Ridge-54.jpg-SMALL.JPG/:/rs=w:984,h:655" class="d-block w-100 rounded-3" alt="Slide 1">
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-3 mb-3">
+                            <a href="#" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6">
+                                <img src="https://img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/4787%20E%20Beacon%20Ridge-53.jpg-SMALL.JPG/:/rs=w:984,h:656" class="d-block w-100 rounded-3" alt="Slide 1">
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-3 mb-3">
+                            <a href="#" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7">
+                                <img src="https://img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/4787%20E%20Beacon%20Ridge-41.jpg-SMALL.JPG/:/rs=w:984,h:656" class="d-block w-100 rounded-3" alt="Slide 1">
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="carousel-container shadow-lg rounded-4 overflow-hidden">
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
@@ -342,42 +385,57 @@
 
 
 
+
+
     <div class="py-5 services-section" style="position: relative;">
         <div class="bg-image-overlay"></div>
-        <div class="container" style="padding-bottom: 40px; padding-top: 20px; position: relative; z-index: 2;">
-            <h2 class="mb-4 text-center" style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.6); padding-bottom: 30px;"><b>Our Services</b></h2>
+
+        <div class="container" style="padding-bottom: 40px; padding-top: 20px; position: relative; z-index: 3;">
+            <h1 class="mb-4 text-center" style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.6); padding-bottom: 30px; font-family: 'Cinzel', Georgia, serif;"><b>Our Services</b></h1>
+
             <div class="row g-5">
                 <div class="col-md-4">
-                    <div class="card shadow-lg border-0 rounded-4 h-100 text-center p-3 floating-card">
+                    <div class="card shadow-lg border-0 rounded-4 h-100 text-center floating-card">
                         <div class="image-box1 mb-3">
-                            <img src="https://img1.wsimg.com/isteam/stock/12792/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365" class="img-fluid rounded-3" alt="Service 1">
+                            <img src="https://img1.wsimg.com/isteam/stock/12792/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365" class="img-fluid" alt="Service 1">
+                            <div class="img-overlay">
+                                <h4 class="img-title">Real Estate Done Right</h4>
+                            </div>
                         </div>
-                        <h4 class="fw-bold" style="padding-top: 20px; padding-bottom: 10px; color: #077F46;">
-                            Real Estate Done Right
-                        </h4>
-                        <p class="text-muted">Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your residence, looking at investment properties, or just curious about the markets, our team ensures you get the best experience possible!</p>
+
+                        <div class="card-content">
+                            <p class="text-muted">Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your residence, looking at investment properties, or just curious about the markets, our team ensures you get the best experience possible!</p>
+                        </div>
                     </div>
                 </div>
+
                 <div class="col-md-4">
-                    <div class="card shadow-lg border-0 rounded-4 h-100 text-center p-3 floating-card">
+                    <div class="card shadow-lg border-0 rounded-4 h-100 text-center floating-card">
                         <div class="image-box1 mb-3">
-                            <img src="https://img1.wsimg.com/isteam/stock/43920/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365" class="img-fluid rounded-3" alt="Service 2">
+                            <img src="https://img1.wsimg.com/isteam/stock/43920/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365" class="img-fluid" alt="Service 2">
+                            <div class="img-overlay">
+                                <h4 class="img-title">Commercial &amp; Residential</h4>
+                            </div>
                         </div>
-                        <h4 class="fw-bold" style="padding-top: 20px; padding-bottom: 10px; color: #077F46;">
-                            Commercial & Residential
-                        </h4>
-                        <p class="text-muted">Large or small, condo or mansion, we can find it and get at the price that's right. Fixer-uppers? Luxury? We can help with all of it! We live, work, and play in this community. Happy to help you find where to put your hard-earned dollars.</p>
+
+                        <div class="card-content">
+                            <p class="text-muted">Large or small, condo or mansion, we can find it and get at the price that's right. Fixer-uppers? Luxury? We can help with all of it! We live, work, and play in this community. Happy to help you find where to put your hard-earned dollars.</p>
+                        </div>
                     </div>
                 </div>
+
                 <div class="col-md-4">
-                    <div class="card shadow-lg border-0 rounded-4 h-100 text-center p-3 floating-card">
+                    <div class="card shadow-lg border-0 rounded-4 h-100 text-center floating-card">
                         <div class="image-box1 mb-3">
-                            <img src="https://img1.wsimg.com/isteam/stock/kayaJdA/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365" class="img-fluid rounded-3" alt="Service 3">
+                            <img src="https://img1.wsimg.com/isteam/stock/kayaJdA/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365" class="img-fluid" alt="Service 3">
+                            <div class="img-overlay">
+                                <h4 class="img-title">Rely on Expertise</h4>
+                            </div>
                         </div>
-                        <h4 class="fw-bold" style="padding-top: 20px; padding-bottom: 10px; color: #077F46;">
-                            Rely on Expertise
-                        </h4>
-                        <p class="text-muted">If you have questions about affordability, credit, and loan options, trust us to connect you with the right people to get the answers you need in a timely fashion. We make sure you feel confident and educated every step of the way.</p>
+
+                        <div class="card-content">
+                            <p class="text-muted">If you have questions about affordability, credit, and loan options, trust us to connect you with the right people to get the answers you need in a timely fashion. We make sure you feel confident and educated every step of the way.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -387,11 +445,12 @@
 
 
 
+
     <div class="contact-section">
         <div class="container">
             <div class="row g-5">
-                <div class="col-md-5">
-                    <h4 class="mb-4" style="color: #161616;"><b>Send a Message</b></h4>
+                <div class="col-md-7">
+                    <h4 class="mb-4" style="color: #161616;"><b><i class="fa-solid fa-envelope"></i> Send a Message</b></h4>
                     <form>
                         <div class="mb-3">
                             <input type="text" id="name" class="form-control" placeholder="Enter your name">
@@ -405,18 +464,27 @@
                         <button type="submit" class="btn w-100"><i class="fa-solid fa-paper-plane"></i>&nbsp; SEND</button>
                     </form>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-5">
                     <div class="d-flex align-items-center justify-content-between mb-3">
                         <div class="social-links d-flex gap-2">
-                            <a href="https://www.facebook.com/MarciHomes/"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/marciandlauren_nvrealtors/"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/marci-metzger-30642496/"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://www.yelp.com/biz/xr3yQN_m2SgO0R_7S6p62w"><i class="fab fa-yelp"></i></a>
-                            <a href="https://wa.me/14259412560"><i class="fab fa-whatsapp"></i></a>
+                            <div class="row">
+                                <div class="col-md-12 mb-2">
+                                    <a href="https://www.facebook.com/MarciHomes/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/marciandlauren_nvrealtors/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/marci-metzger-30642496/"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-md-12 mb-2">
+                                    <a href="https://www.yelp.com/biz/xr3yQN_m2SgO0R_7S6p62w"><i class="fab fa-yelp"></i></a>
+                                    <a href="https://wa.me/14259412560"><i class="fab fa-whatsapp"></i></a>
+                                    <a href="tel:2069196886"><i class="fas fa-phone"></i></a>
+                                </div>
+                            </div>
+
                         </div>
                         <div class="text-end">
                             <h6><b>THE RIDGE REALTY GROUP</b></h6>
                             <h2 style="color: #077F46;"><b><font style="color: #161616;">Marci</font> Metzger</b></h2>
+                            <p style="font-size: 15px;">3190 HW-160, Suite F, Pahrump, Nevada 89048, United States</p>
                         </div>
                     </div>
 
@@ -456,6 +524,9 @@
                             <tr>
                                 <td>Open daily</td>
                                 <td>8:00 am - 7:00 pm</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="font-size: 14px; color: gray;">Appointments outside office hours available upon request. Just call!</td>
                             </tr>
                         </tbody>
                     </table>
